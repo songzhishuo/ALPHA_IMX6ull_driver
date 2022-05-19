@@ -35,7 +35,7 @@ static ssize_t char_write(struct file *file, const char __user *buffer, size_t c
     ssize_t ret;
     printk("char write\r\n");
 
-    return ret;
+    return count;               //此处应返回实际写入的长度
 }
 
 static int char_open(struct inode *inode, struct file *filp)
@@ -43,7 +43,7 @@ static int char_open(struct inode *inode, struct file *filp)
     ssize_t ret;
     printk("char open\r\n");
 
-    return ret;
+    return ret;                 //此处应返回实际读取的长度
 }
 
 static int char_release(struct inode *inode, struct file *file)
