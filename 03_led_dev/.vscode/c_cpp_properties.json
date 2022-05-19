@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include/generated",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/usr/include",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include/generated",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/um/include/asm",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include/uapi",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include/generated/uapi",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/um/include",
+                "/home/argon/Desktop/imx6u/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/tools/virtio"
+
+
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
